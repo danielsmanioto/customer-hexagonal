@@ -8,11 +8,18 @@ References: https://reflectoring.io/spring-hexagonal/
 
 Basic application using package organization
 
-<b>Model</b> : Rules and Use Case of our application
+<b>Domains</b> : Rules and Use Case of our application
 <b>Adapters:</b>  Every this we need to expose. examples end points.
 <b>Ports: </b> Contracts of our Models and Use Case and our Adapters 
 
 # Tecnologies
 
-Jdk17<br>
+Jdk16<br>
 Spring Boot<br> 
+
+# Executing
+
+`gradle clean bootRun`
+
+`curl http://localhost:8080/customers`
+
